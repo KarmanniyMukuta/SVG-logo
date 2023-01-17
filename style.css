@@ -1,0 +1,33 @@
+*{--c: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: var(--c);
+    align-items: var(--c);
+    
+    }
+svg {
+    width: 284.99px;
+    height: 560px;
+    margin: 50px auto;
+}
+.black {
+    background: #000;
+}
+line {
+    stroke-width: 80.3px;
+    stroke-linecap: round;
+}
+.a {
+    stroke:red ;
+}
+.b {
+    stroke:goldenrod ;
+}
+.c {
+    stroke:green ;
+}
